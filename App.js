@@ -1,19 +1,14 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
 
 import React, {Component} from 'react';
 import { Text, View} from 'react-native';
-import ShowInfo from './components/showinfo'
+// import ShowInfo from './components/showinfo'
+import Albums from './components/Albums'
 export default class App extends Component {
+  
   render() {
     return (
       <View >
-        <ShowInfo />
+        <Albums />
         {/* <Text>Hello world</Text> */}
       </View>
     );

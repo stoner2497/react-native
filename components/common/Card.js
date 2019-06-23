@@ -3,7 +3,9 @@ import {View , Text , StyleSheet} from 'react-native'
 export default function Card(props) {
     return (
        <View style={Styles.Card} >
-        {props.children}
+           <Text>
+           {props.children}
+           </Text>
         </View>
     )
 }
